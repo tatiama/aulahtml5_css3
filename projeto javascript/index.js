@@ -149,19 +149,152 @@
 // var listaDeCarros = ["Fox","Uno","Gol","Astral","Fiesta"]
 // for (let i = 0; i< listaDeCarros.length;i++) {
 //     console.log("Nome do carro: "+ listaDeCarros[ i ] )
+// // }
+
+// var listaDeGanhos = [10, 30, -10, -5, -1, 40]
+// var totalNegativos = 0
+// for (var i = 0; i < listaDeGanhos.length; i++) {
+// if (listaDeGanhos[i] < 0 ) {
+//     totalNegativos = totalNegativos + 1
+// }
+// } 
+// console.log(totalNegativos)
+
+// var listaDeFrutas = [ "Uva", "Banana",  "Manga", "Cajá", "Pinha"]
+// var busca = "Cajá"
+// for (var i = 0;i < listaDeFrutas.length;i++) {
+// if (listaDeFrutas[i]== busca ) {
+//     console.log("Sim,temos a fruta cajá disponível") 
+// }
 // }
 
-var listaDeGanhos = [10, 30, -10, -5, -1, 40]
-var totalNegativos = 0
-for (var i = 0; i < listaDeGanhos.length; i++) {
-if (listaDeGanhos[i] < 0 ) {
-    totalNegativos = totalNegativos + 1
+// var cartela = [8, 13, 18, 22, 42, 49]
+// var numeroSorteado = 42
+// for (var i = 0; i < cartela.length; i++) {
+// if (cartela[i] == numeroSorteado) {
+//     console.log("Encontrei o número!")
+//     break
+// }
+// }
+
+// for ( var i = 0; i <= 20; i++) {
+//     if ( i % 2 == 0) {
+//         console.log(i)
+//         continue
+//     }
+//     }
+// var familia = ["Joana", "Felipe", "Gabriela", "Carlos", "Pedro", "Bruno"]
+// for (var i = 0; i < familia.length; i++) {
+// if (familia[i] == "Pedro") {
+//     console.log(familia[i] + " Sousa")
+//     continue
+// }
+//     console.log(familia[i] + " Macedo")
+// }
+
+// var baralho = ["Ás", "Dama", "Rei", "Valete"]
+// for (var i = 0; i < baralho.length; i++) {
+// if (baralho[i] == "Rei") {
+//    console.log("Encontrei o Rei!")
+//    break
+// }
+// }
+
+// function listarProdutos() {
+//     var lista = ['Leite', 'tomate', 'Biscoito', 'Tapioca']
+//     for(var i = 0; i < lista.length; i++){
+//         console.log(lista[i])
+//     }
+// }
+// listarProdutos()
+
+// function cartaoDeVisitas() {
+//         var nome = "Tatiana"
+//         var sobrenome = "Cavalcanti"
+//             console.log(nome + " " + sobrenome)
+// }
+// cartaoDeVisitas()
+
+// function tabuadaDoSete() {
+
+//     var  valor = 7
+//     for (i = 1; i <= 10; i++) {
+//         console.log(valor + " x " + i + " = " + (valor * i))
+//     }
+// }
+// tabuadaDoSete()
+
+// function menorNumero( a , b) {
+//     if ( a < b ) {
+//     return a 
+//     } else if (a > b) {
+//     return b
+//     } else {
+//     return a 
+//     }
+//     }
+// console.log(menorNumero(10, 2))
+
+// function comecaComMaiuscula(palavra){
+//     return /^[A-Z]/.test(palavra)
+//  }
+  
+//  var palavras = ["Amor", "copo", "Bolacha", "biscoito"];
+  
+//  for (var i = 0; i < palavras.length; i++) {
+//  var maiuscula = comecaComMaiuscula(palavras[i])
+//  if (maiuscula == true) {
+//     console.log("Começa com maiúscula")
+//     continue
+//  }
+//  else {
+//     console.log("Nao começa com maiúscula")
+//     }
+//  }
+
+// var moradores = [
+//    "Fulano de Tal",
+//    "Beltrano da Cia",
+//    "Viajante do Tempo",
+//    "Morador da Lua",
+//    "Marciano Azul",
+//    "Et da Eslováquia",
+//    "Jedi do Lado Cinza da Força",
+//    "Baby Yoda Amarelo"
+// ]
+// for ( var i = 0; i < moradores.length; i++) {
+// if ( i % 2 == 0) {
+//    console.log("O morador "+ moradores[i] +" pode usar o elevador")
+// }
+// }
+ 
+
+// var usuario1 = ['Et da Estônia', 17, 170]
+// var usuario2 = ['Pessoa do Pântano', 39, 198]
+// var usuario3 = ['Homem da Lua Virada', 21, 149]
+// var usuario4 = ['Pequena Paulistana', 18, 171]
+// var usuario5 = ['Menino da Porteira', 13, 142]
+// function maiorAlto(usuario) {
+//     if (usuario [1] >= 18 &&  usuario [2] >= 170 ) {
+// return true
+// } else {
+// return false
+// }
+// }
+// maiorAlto(usuario1)
+// maiorAlto(usuario2)
+// maiorAlto(usuario3)
+// maiorAlto(usuario4)
+// maiorAlto(usuario5)
+    
+var array = ["Tati","Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs","Tati", "Julio","Jobs"]
+var contador = 0
+for(var i = 0; i< array.length; i++){
+   if(array[i] == "Tati"){
+      contador++
+   }
 }
-} 
-console.log(totalNegativos)
-
-
-
+console.log(contador)
 
 
 
